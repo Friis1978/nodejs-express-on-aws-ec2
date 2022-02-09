@@ -1,0 +1,10 @@
+{
+    "name":"nodejs-express-on-aws-ec2",
+    "version":"0.0.1",
+    "scripts": {
+        "ec2-server":"ssh -i ~/.ssh/nodejs-express-on-aws-ec2.pem ec2-user@ec2-3-67-178-202.eu-central-1.compute.amazonaws.com"
+    },
+    "dependencies": {
+        "express":"4.17.2"
+    }
+}
